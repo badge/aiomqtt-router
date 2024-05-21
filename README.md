@@ -2,10 +2,11 @@
 
 An async router for MQTT topics with aiomqtt.
 
-`aiomqtt-router` makes subscribing to multiple MQTT topics with aiomqtt much more
-straightforward and tidier than it otherwise would be. Here's an example from the
-aiomqtt docs **without** aiomqtt-router:
-
+`aiomqtt-router` makes subscribing to multiple MQTT topics with
+[aiomqtt](https://sbtinstruments.github.io/aiomqtt/index.html) much more straightforward
+and tidier than it otherwise would be. Here's an example
+[from the aiomqtt docs](https://sbtinstruments.github.io/aiomqtt/migration-guide-v2.html#changes-to-the-message-queue)
+**without** aiomqtt-router:
 
 
 ```python
@@ -53,7 +54,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-And here's the same example **with** aiomqtt-router:
+And here's the same example **with** `aiomqtt-router`:
 
 ```python
 import asyncio
